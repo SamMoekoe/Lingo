@@ -1,0 +1,43 @@
+
+body {
+    font-family: 'Alata', sans-serif;
+    color: white;
+    text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+    margin: 0;
+    background-color: rgb(185, 160, 218);
+}
+
+#game-container {
+    margin: auto;
+    text-align: center;
+}
+
+#attempts {
+    display: grid;
+    grid-template-columns: repeat(5, 125px);
+    grid-template-rows: repeat(5, 125px);
+    column-gap: 7px;
+    row-gap: 7px;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.letter {
+    background-color: black;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    border-radius: 40px;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+	border-radius: 50%;
+}
